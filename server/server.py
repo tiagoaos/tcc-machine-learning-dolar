@@ -112,21 +112,7 @@ pred_svm = svm_clf.predict(X_test)
 
 
 
-# pd_text['pca'] = (
-#    pd_text["title"]
-#    .pipe(hero.clean)
-#    .pipe(hero.tfidf)
-#    .pipe(hero.pca)
-# )
 
-teste = ["dólar tem maior baixa semanal em 9 meses "]
-
-# val_pred = multinomial_clf.predict(teste)
-# print(val_pred)
-
-
-
-# print(tweer.lasttweet())
 
 @app.route("/dolar")
 def get_stock():
