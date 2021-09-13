@@ -118,7 +118,7 @@ pred_svm = svm_clf.predict(X_test)
 def get_stock():
     df = tweer.lasttweet()
     print(df.head(4))
-    val_pred = multinomial_clf.predict(df['conteudo'])
+    val_pred = complement_clf.predict(df['conteudo'])
     print(df)
     print(val_pred)
     type(val_pred)
